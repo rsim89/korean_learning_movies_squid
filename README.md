@@ -1,1 +1,1 @@
-# korean_learning_movies_squid
+# korean_learning_movies
