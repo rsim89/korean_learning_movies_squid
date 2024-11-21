@@ -364,5 +364,5 @@ function fetchCurrentKoreanText(episodeNum, startSegment, segmentCount) {
 // Function to update SEGMENTS_DIR when currentEpisodeNum changes
 function updateSegmentsDir(newEpisodeNum) {
     currentEpisodeNum = newEpisodeNum;
-    SEGMENTS_DIR = `https://rsim89.github.io/korean_learning_movies_Episode_${String(currentEpisodeNum).padStart(2, '0')}/segments`;
+    SEGMENTS_DIR = `https://rsim89.github.io/korean_learning_movies_squid_Episode_${String(currentEpisodeNum).padStart(2, '0')}/segments`;
 }
